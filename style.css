@@ -57,7 +57,7 @@ div {
 }
 
 .container {
-  width: 1000px;
+  width: 700px;
   margin: 30px auto;
 }
 
@@ -91,6 +91,15 @@ div {
 
 #movies {
   line-height: 2em;
+}
+
+#sidebar {
+  background-color: #0E111D;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
 }
 
 /*#movies h3 {
