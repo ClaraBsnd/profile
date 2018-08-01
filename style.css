@@ -1,0 +1,98 @@
+body {
+  background: #E7DEE0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #101423;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3 {
+  font-family: font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+  color: #A71D31;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+h2 {
+  color: #891829;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+h3 {
+  color: #4C0E17;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+a {
+  color: #7D4E57;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+}
+
+table {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  width: 1000px;
+  margin: 30px auto;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+/*.fab {
+  display: inline-block;
+}*/
+
+#movies {
+  line-height: 2em;
+}
+
+/*#movies h3 {
+  text-align: justify;
+}*/
