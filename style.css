@@ -58,7 +58,7 @@ div {
 
 .container {
   width: 800px;
-  margin: 30px auto;
+  margin: 160px auto;
 }
 
 .card {
@@ -85,8 +85,12 @@ div {
   padding: 20px;
 }
 
+.fas {
+  padding-right: 10px;
+}
+
 /*.fab {
-  display: inline-block;
+  height: 20px;
 }*/
 
 #movies {
@@ -97,9 +101,15 @@ div {
   background-color: #0E111D;
   position: fixed;
   left: 0px;
+  right: 0px;
   top: 0px;
-  bottom: 0px;
-  width: 120px;
+  height: 130px;
+}
+
+#sidebar a {
+  color: #E7DEE0;
+  padding: 20px;
+  font-size: 50px;
 }
 
 /*#movies h3 {

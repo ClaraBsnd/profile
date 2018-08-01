@@ -12,20 +12,34 @@
   <body>
 
     <div id="sidebar">
-      <ul>
-        <li>Home</li>
-        <li>Movies</li>
-        <li>ABout</li>
+      <ul class="list-inline text-center">
+        <li>
+          <a href="#summary">
+            <i class="fas fa-info-circle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#movies">
+            <i class="fas fa-film"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#about">
+            <i class="far fa-life-ring"></i>
+          </a>
+        </li>
       </ul>
     </div>
 
     <div class="container">
 
-      <div class="card text-center">
+      <div class="card text-center" id="summary">
+
         <img src="images/profile_picture.jpg" alt="Clara Picture" class="img-circle">
         <h1>Clara Besnard</h1>
         <h2>Student @Le Wagon</h2>
-        <p>Currently student at emlyon business school, will be looking for an intership soon! </p>
+        <p>Currently a student at emlyon business school, will be looking for an intership soon! </p>
+
       </div>
 
       <div class="card text-center">
@@ -57,7 +71,7 @@
       </div>
 
 
-    <div class="card text-center">
+    <div class="card text-center"  id="movies">
 
     <h2>My Favourite TV Shows</h2>
 
@@ -100,7 +114,7 @@
 
   </div>
 
-  <div class="card text-center">
+  <div class="card text-center"  id="about">
 
     <h3><em>About this page</em></h3>
       <p>This page has been coded during the
